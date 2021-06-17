@@ -1,0 +1,223 @@
+
+Online Monitoring Water Level of River
+========================================================
+<style>
+/* Your other css */
+  
+.section .reveal .state-background {
+    background-image: url(https://www.collinsdictionary.com/images/full/river_377603497_1000.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-size: 100% 100%;
+}
+
+/* slide titles */
+.reveal h3 { 
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+}
+
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h3 {
+   font-size: 100px;
+   font-weight: bold;
+   color: white;
+}
+
+/* ordered and unordered list styles */
+.reveal ul, 
+.reveal ol {
+    font-size: 50px;
+    color: black;
+    list-style-type: square;
+}
+
+</style>
+
+## Yuan Lii Tan(S2024825)
+
+## Nor Azyra Binti Omar (17120332)
+
+## Nur Farzanah Binti Roslan (17089384)
+
+## Amri Bin Abu Bakar (S2035949)
+
+Introduction
+========================================================
+
+<style>
+
+/* slide titles */
+.reveal h3 { 
+  font-size: 80px;
+  color: blue;
+}
+
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h2 {
+   font-size: 40px;
+   font-weight: bold;
+   color: green;
+}
+
+/* ordered and unordered list styles */
+.reveal ul, 
+.reveal ol {
+    font-size: 40px;
+    color: black;
+    list-style-type: square;
+}
+
+</style>
+
+## Problem Statement
+
+For every year during the monsoon season, Malaysia is impacted by floods which is regular natural disasters in country. From October to March of monsoon season, the area most prone to flooding is at east coast of peninsular Malaysia. In year end 2014, Malaysia flood have been described as the worst floods in decades which cause more than 200,000 people were affected and evacuated, while 21 were killed. The major reason for this flood is typically due to rising of river water levels from heavy rain especially during monsoon season.
+
+</style>
+
+## Beneficial of Project
+
+- The Department of Irrigation and Drainage Malaysia (DID) ...
+
+
+========================================================
+<style>
+
+/* slide titles */
+.reveal h3 { 
+  font-size: 100px;
+  color: blue;
+}
+
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h2 {
+   font-size: 40px;
+   font-weight: bold;
+   color: green;
+}
+
+/* ordered and unordered list styles */
+.reveal ul, 
+.reveal ol {
+    font-size: 40px;
+    color: black;
+    list-style-type: square;
+}
+
+</style>
+
+## Objective
+
+To identify high risk rivers in state of Selangor which potentially cause flood during raining. This provide a pre-alert to population nearby the river area in which they may expected flood during the raining. For long term measure, the authority should take proactive actions to keep the river water level within the safe range by ensuring the water flow, deepening, safety wall or overflow system such as SMART tunnel.
+
+</style>
+
+## Research Question
+
+1. Which rivers in state of Selangor is high risk to cause flood during raining?
+
+2. How correlated is the amount of rainfall and the river water level?
+
+3. What amount of rain fall will effect the rising of the river water level to a threatening level?
+
+
+Data Science Process
+========================================================
+
+<style>
+
+/* slide titles */
+.reveal h3 { 
+  font-size: 80px;
+  color: blue;
+}
+
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h2 {
+   font-size: 40px;
+   font-weight: bold;
+   color: green;
+}
+
+/* ordered and unordered list styles */
+.reveal ul, 
+.reveal ol {
+    font-size: 40px;
+    color: black;
+    list-style-type: square;
+}
+
+</style>
+
+## Asking the right question
+
+Researched had been done on several case of floods in Malaysia which narrow down this project to find out which rivers in state of Selangor is at high risk to cause flood during raining.
+
+## Finding & Getting Data
+
+The data of water river level and rain fall retrieve from Department of Irrigation and Drainage Malaysia website. This involved process of data acquisition and merging set of data from multiple rivers to become one data set.
+http://infobanjir.water.gov.my/
+
+</style>
+
+## Data Cleaning & Processing
+
+Missing data from certain rivers due to malfunction sensor is remove from the data set. Attribute in the data is identified and classified accordingly. Finally the data transform into csv format for analysis.
+
+
+## Data Analysis
+
+Correlation
+Pareto
+Line Chart 
+Scatter Chart
+
+
+========================================================
+
+<style>
+
+/* slide titles */
+.reveal h3 { 
+  font-size: 80px;
+  color: blue;
+}
+
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h2 {
+   font-size: 40px;
+   font-weight: bold;
+   color: green;
+}
+
+/* ordered and unordered list styles */
+.reveal ul, 
+.reveal ol {
+    font-size: 40px;
+    color: black;
+    list-style-type: square;
+}
+
+</style>
+
+--- screenshot image of our apps & paste here
+
+## Shiny Apps
+
+link :
+
+</style>
+
+## Github
+
+link :
+
+## Reference
+http://infobanjir.water.gov.my/
+https://www.thestar.com.my/News/Nation/2014/12/20/Kajang-flash-floods/
+http://www.theborneopost.com/2014/12/23/rising-flood-waters-force-more-people-to-flee-homes-in-east-coast-of-semenanjung-malaysia/
+
